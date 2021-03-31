@@ -1,0 +1,36 @@
+h2 {
+    margin: 2px 0px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0px 0px 5px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navbar li a:hover{
+    background-color: darkred;
+}
+
+.jumptarget::before{
+    content:"";
+    display: block;
+    height: 50px;
+}
